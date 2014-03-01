@@ -16,3 +16,6 @@
 /tmp
 *~
 *.swp
+.secret
+database.yml
+doc/
