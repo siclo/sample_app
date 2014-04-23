@@ -9,8 +9,9 @@ group :development, :test do
 end
 
 group :test do
+	gem 'nokogiri', '1.6.2.rc1'
   gem 'selenium-webdriver', '2.35.1'
-  #gem 'capybara', '2.1.0'
+  gem 'capybara', '2.1.0'
 end
 
 gem 'sass-rails', '4.0.1'
